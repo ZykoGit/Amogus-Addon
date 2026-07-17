@@ -49,12 +49,6 @@
 				"minecraft:behavior.breed": {
 					"priority": 3,
 					"speed_multiplier": 1
-				},
-				"minecraft:rideable": {
-					"seat_count": 1,
-					"seats": {
-						"position": [0, 0.9375, 0]
-					}
 				}
 			}
 		},
@@ -118,6 +112,12 @@
 				"controlled_value": 1.2
 			},
 			"minecraft:input_ground_controlled": {},
+			"minecraft:rideable": {
+					"seat_count": 1,
+					"seats": {
+						"position": [0, 0.9375, 0]
+					}
+				},
 			"minecraft:despawn": {
 				"despawn_from_distance": {}
 			},
