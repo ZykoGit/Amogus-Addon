@@ -3,7 +3,7 @@
 	"minecraft:entity": {
 		"description": {
 			"identifier": "gus:amogus",
-			"runtime_identifier": "minecraft:chicken",
+			"runtime_identifier": "gus:amogus",
 			"is_spawnable": false,
 			"is_summonable": true,
 			"is_experimental": false
@@ -114,6 +114,7 @@
 			"minecraft:movement.basic": {},
 			"minecraft:jump.static": {},
 			"minecraft:can_climb": {},
+			"minecraft:input_ground_controlled" {},
 			"minecraft:despawn": {
 				"despawn_from_distance": {}
 			},
