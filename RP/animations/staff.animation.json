@@ -1,0 +1,24 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.staff.first_person_hold": {
+			"loop": true,
+			"bones": {
+				"Staff": {
+					"rotation": [26.6137, 12.2972, -129.6281],
+					"position": [3.66803, -6.13408, -1.38513]
+				}
+			}
+		},
+		"animation.staff.third_person_hold": {
+			"loop": true,
+			"bones": {
+				"Staff": {
+					"rotation": [90, -5.0001, 269.9997],
+					"position": [0, 0.56841, -9.46979],
+					"scale": 0.6
+				}
+			}
+		}
+	}
+}
