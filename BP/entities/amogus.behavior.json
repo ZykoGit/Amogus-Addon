@@ -3,7 +3,6 @@
 	"minecraft:entity": {
 		"description": {
 			"identifier": "gus:amogus",
-			"runtime_identifier": "gus:amogus",
 			"is_spawnable": false,
 			"is_summonable": true,
 			"is_experimental": false
@@ -16,7 +15,7 @@
 				},
 				"minecraft:ageable": {
 					"duration": 1200,
-					"feed_items": ["wheat_seeds", "beetroot_seeds", "melon_seeds", "pumpkin_seeds"],
+					"feed_items": ["cookie"],
 					"grow_up": {
 						"event": "minecraft:ageable_grow_up",
 						"target": "self"
@@ -114,7 +113,7 @@
 			"minecraft:movement.basic": {},
 			"minecraft:jump.static": {},
 			"minecraft:can_climb": {},
-			"minecraft:input_ground_controlled" {},
+			"minecraft:input_ground_controlled": {},
 			"minecraft:despawn": {
 				"despawn_from_distance": {}
 			},
@@ -158,7 +157,7 @@
 		"events": {
 			"from_egg": {
 				"add": {
-					"component_groups": ["minecraft:amogus_baby"]
+					"component_groups": ["gus:amogus_baby"]
 				}
 			},
 			"minecraft:entity_spawned": {
@@ -170,7 +169,7 @@
 					{
 						"weight": 5,
 						"add": {
-							"component_groups": ["minecraft:amogus_baby"]
+							"component_groups": ["gus:amogus_baby"]
 						}
 					}
 				]
