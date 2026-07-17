@@ -63,7 +63,7 @@
 				"family": ["mob"]
 			},
 			"minecraft:breathable": {
-				"total_supply": 15,
+				"total_supply": 30,
 				"suffocate_time": 0
 			},
 			"minecraft:collision_box": {
