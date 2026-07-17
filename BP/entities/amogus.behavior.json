@@ -113,6 +113,10 @@
 			"minecraft:movement.basic": {},
 			"minecraft:jump.static": {},
 			"minecraft:can_climb": {},
+			"minecraft:variable_max_auto_step": {
+				"base_value": 1.2,
+				"controlled_value": 1.2
+			},
 			"minecraft:input_ground_controlled": {},
 			"minecraft:despawn": {
 				"despawn_from_distance": {}
